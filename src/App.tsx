@@ -1,5 +1,5 @@
 // import Component from './components/props';
-import Component from './components/events';
+import Component from './components/challange';
 
 function App() {
   return (
@@ -19,7 +19,11 @@ function App() {
         {/* <Component /> */}
 
         {/* Events */}
-        <Component />
+        {/* <Component /> */}
+
+        {/* Challange */}
+        <Component type="basic" name="franz" />
+        <Component type="advanced" name="vincent" email="vincent@gmail.com" />
       </div>
     </div>
   );
