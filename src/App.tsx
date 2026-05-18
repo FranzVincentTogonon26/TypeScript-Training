@@ -1,5 +1,5 @@
 // import Component from './components/props';
-import Component from './components/reducer/reducer';
+import Component from './components/fecth-data/fetch-data';
 
 function App() {
   return (
@@ -25,7 +25,10 @@ function App() {
         {/* <Component type="basic" name="franz" />
         <Component type="advanced" name="vincent" email="vincfent@gmail.com" /> */}
 
-        {/* Context */}
+        {/* Reducer */}
+        {/* <Component /> */}
+
+        {/* Fecth Data */}
         <Component />
       </div>
     </div>
