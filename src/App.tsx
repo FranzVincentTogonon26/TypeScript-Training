@@ -1,4 +1,5 @@
-import Component from './components/props';
+// import Component from './components/props';
+import Component from './components/events';
 
 function App() {
   return (
@@ -7,10 +8,18 @@ function App() {
         <h1 className="text-2xl font-bold ">
           Fundamentals Training for TyepScript
         </h1>
-        <Component name="Franz" age={31} />
+
+        {/* Props */}
+        {/* <Component name="Franz" age={31} />
         <Component name="Vincent" age={30}>
           <p>Hello World</p>
-        </Component>
+        </Component> */}
+
+        {/* State */}
+        {/* <Component /> */}
+
+        {/* Events */}
+        <Component />
       </div>
     </div>
   );
