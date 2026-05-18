@@ -83,8 +83,8 @@ function Component() {
   if (isError) return <h2>Error: {error.message}</h2>;
 
   return (
-    <div className="">
-      <h2 className="mb-1">Tours</h2>
+    <div className="max-w-3xl">
+      <h2 className="mb-1 text-4xl font-bold">Tours</h2>
       <ul className="list bg-base-100 rounded-box shadow-md ">
         {tours.map((tour, index) => (
           <li key={index} className="list-row">
