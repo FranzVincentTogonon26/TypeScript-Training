@@ -1,5 +1,5 @@
 // import Component from './components/props';
-import Component from './components/challange';
+import Component from './components/contextComponent';
 
 function App() {
   return (
@@ -22,8 +22,11 @@ function App() {
         {/* <Component /> */}
 
         {/* Challange */}
-        <Component type="basic" name="franz" />
-        <Component type="advanced" name="vincent" email="vincfent@gmail.com" />
+        {/* <Component type="basic" name="franz" />
+        <Component type="advanced" name="vincent" email="vincfent@gmail.com" /> */}
+
+        {/* Context */}
+        <Component />
       </div>
     </div>
   );
