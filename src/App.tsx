@@ -23,7 +23,7 @@ function App() {
 
         {/* Challange */}
         <Component type="basic" name="franz" />
-        <Component type="advanced" name="vincent" email="vincent@gmail.com" />
+        <Component type="advanced" name="vincent" email="vincfent@gmail.com" />
       </div>
     </div>
   );
