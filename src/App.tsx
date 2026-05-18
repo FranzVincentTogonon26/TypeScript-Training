@@ -1,5 +1,5 @@
 // import Component from './components/props';
-import Component from './components/contextComponent';
+import Component from './components/reducer/reducer';
 
 function App() {
   return (
