@@ -1,5 +1,5 @@
 // import Component from './components/props';
-import Component from './components/fecth-data/fetch-data';
+import Component from './components/tasks/task';
 
 function App() {
   return (
@@ -29,6 +29,9 @@ function App() {
         {/* <Component /> */}
 
         {/* Fecth Data */}
+        {/* <Component /> */}
+
+        {/* Task */}
         <Component />
       </div>
     </div>
